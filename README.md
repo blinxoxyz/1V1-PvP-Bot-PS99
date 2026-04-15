@@ -16,6 +16,7 @@ A complete deposit system with Discord bot and Roblox trade bot integration.
 1. Install Python dependencies:
 ```bash
 pip install discord.py aiohttp flask cloudscraper beautifulsoup4 requests
+or download from requirements.txt as startup
 ```
 
 2. Create a Discord application at https://discord.com/developers/applications
