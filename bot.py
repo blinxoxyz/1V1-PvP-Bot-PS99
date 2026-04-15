@@ -27,7 +27,7 @@ PET_ICONS_FILE = "pet_icons.json"
 COINFLIP_CHANNEL_ID = 123
 OWNER_USER_ID = "123"
 TAX_WEBHOOK_URL = "123"
-DEPOSIT_WEBHOOK_URL = "123"
+DEPOSIT_WEBHOOK_URL = "123" # deposit webhook doesnt work yet but it adds the items to inv so dw
 
 DEPOSIT_RATE_LIMIT_SECONDS = 10
 deposit_cooldowns = {}
