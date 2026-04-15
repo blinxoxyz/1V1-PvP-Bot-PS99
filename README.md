@@ -1,6 +1,3 @@
-Here's a `README.md` file for your Discord bot and Roblox deposit system:
-
-```markdown
 # Deposit Bot System
 
 A complete deposit system with Discord bot and Roblox trade bot integration.
@@ -180,6 +177,3 @@ The bot runs a Flask API on port 35585:
 - Users must link accounts before depositing
 - Minimum gem deposit is 10,000,000
 - Only Huges, Titanics, and Gargantuans are accepted
-```
-
-This README gives users everything they need to set up both the Discord bot and the Roblox trade bot without making it look like AI wrote it.
