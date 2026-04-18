@@ -1743,7 +1743,7 @@ class CoinflipView(discord.ui.View):
                 save_data(data)
 
     async def animate_flip(self, winning_side: str):
-        flip_gif_url = "https://www.image2url.com/r2/default/gifs/1776004675449-33784738-f7f3-48df-8b62-5195eb064f02.gif"
+        flip_gif_url = "" # change to coinflipping gif URL
         flip_embed = discord.Embed(
             title="Flipping the Coin...",
             description=f"**{self.starter.display_name}** chose **{self.choice.upper()}**\n**{self.joiner.display_name}** chose **{self.joiner_choice.upper()}**",
@@ -1754,10 +1754,10 @@ class CoinflipView(discord.ui.View):
         await self.message.edit(embed=flip_embed, view=None)
         await asyncio.sleep(4)
         if winning_side == 'heads':
-            result_image = "https://media.discordapp.net/attachments/1492180470413266964/1492895436653068308/heads.png"
+            result_image = "" # change to heads image url
             result_title = "Heads"
         else:
-            result_image = "https://media.discordapp.net/attachments/1492180470413266964/1492895436300882092/trails.png"
+            result_image = "" # change to heads image url
             result_title = "Tails"
         result_embed = discord.Embed(
             title=f"The coin landed on {result_title}!",
